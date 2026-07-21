@@ -4,4 +4,5 @@ Projekt realizowany w ramach kursu 'Komponentowe Systemy Rozproszone' w semestrz
 Głównym celem projektu jest zaprojektowanie i implementacja aplikacji internetowej w której komunikacja między serwerem WWW i aplikacją backendową odbywa się z wykorzystaniem kolejek.
 
 ## Stack technologiczny
-* .Net core/C#
+* .Net / C#
+* Docker

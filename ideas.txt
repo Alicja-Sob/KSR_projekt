@@ -1,0 +1,33 @@
+Need at least serwer WWW and a backend app. But also need frontend done - is this supposed to be done as part of backup? or as a seperate 'app'
+
+It's supposed to be a library system - but for workers or clients? maybe two sides of one system? that would split the backend.. 
+maybe I'll start doing one in depth and just redirect to the 2nd one?
+
+
+Not logged in user:
+- browsing all books
+- viewing specific books and seeing their aviablility (in stock, some has it rn, reserved)
+- ability to log in
+
+Client specific:
+- ability to reserve books
+- ability to see their books and when they need to be returned.
+- ability to request a new book?
+
+Worker specific:
+- adding / removing books from stock
+- manually controling reservations
+
+Whole system:
+- differentiating between worker and client
+- loggingn in (ideally keeping statuses in between system uses) 
+- facilitating the communication between all elements (user queues, DB, web server etc)
+
+Frontend
+- webpage as if you were looking up a library webpage ig?
+- logging in and viewing your account?
+- seeing the books otherwise
+
+DB:
+- Books (ISBN, Title, author, Language, Format, Aviability [whether reserved/free], amount in stock, uniqueID [isbn+nr porzadkowy]) 
+- User accounts (Login, Password, Name, Last name, Address, User/Worker, unique UUID as PK?, reserved books somehow)
